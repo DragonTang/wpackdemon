@@ -1,0 +1,25 @@
+{
+  "name": "wpackdemon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "dev": "NODE_ENV=production ./node_modules/.bin/webpack-dev-server --progress --watch"
+  },
+  "dependencies": {
+    "csv-loader": "^2.1.1",
+    "express": "^4.15.3",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "lodash": "^4.17.4",
+    "webpack": "^3.0.0",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-dev-server": "^2.5.0",
+    "xml-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2"
+  }
+}
